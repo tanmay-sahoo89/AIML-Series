@@ -12,7 +12,7 @@ $watcher = New-Object System.IO.FileSystemWatcher
 $watcher.Path = $repoPath
 $watcher.Filter = "*.*"
 $watcher.IncludeSubdirectories = $true
-$watcher.NotifyFilter = "LastWriteTime", "FileName", "DirectoryName"
+$watcher.NotifyFilter = [System.IO.NotifyFilters]::LastWriteTime -bor [System.IO.NotifyFilters]::FileName -bor [System.IO.NotifyFilters]::DirectoryName
 
 $global:lastCommitTime = [datetime]::MinValue
 
