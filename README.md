@@ -8,11 +8,10 @@ A collection of AI/ML learning notebooks covering fundamental concepts in data v
 
 #### 1. **linear_regression.ipynb**
 
-
+Linear regression implementation and analysis.
 
 #### 2. **data_detox.ipynb**
 
-Linear regression implementation and analysis.
 Comprehensive guide to data visualization with matplotlib and NumPy. Covers:
 
 - **Basic Plotting**: Simple line plots and visualization setup
