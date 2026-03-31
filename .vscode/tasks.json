@@ -1,0 +1,43 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Auto-Commit",
+      "type": "shell",
+      "command": "powershell",
+      "args": ["-ExecutionPolicy", "Bypass", "-File", ".\\auto-commit.ps1"],
+      "isBackground": true,
+      "problemMatcher": {
+        "pattern": {
+          "regexp": "^.*$",
+          "file": 1,
+          "location": 2,
+          "message": 3
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": "^.*Auto-commit daemon started.*",
+          "endsPattern": "^.*Stopping auto-commit daemon.*"
+        }
+      },
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      }
+    },
+    {
+      "label": "Stop Auto-Commit",
+      "type": "shell",
+      "command": "powershell",
+      "args": [
+        "-Command",
+        "Stop-Process -Name 'auto-commit' -ErrorAction SilentlyContinue; Write-Host 'Auto-commit stopped'"
+      ],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ]
+}
