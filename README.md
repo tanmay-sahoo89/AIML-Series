@@ -7,7 +7,9 @@ A collection of AI/ML learning notebooks covering fundamental concepts in data v
 ### 📊 Notebooks
 
 #### 1. **data_detox.ipynb**
+
 Comprehensive guide to data visualization with matplotlib and NumPy. Covers:
+
 - **Basic Plotting**: Simple line plots and visualization setup
 - **Sigmoid Function**: Implementation and plotting of the sigmoid activation function
 - **Plot Parameters**: Demonstrating different line styles, colors, and markers
@@ -17,14 +19,16 @@ Comprehensive guide to data visualization with matplotlib and NumPy. Covers:
   - 10-feature comprehensive analysis with shared y-axis
 
 #### 2. **linear_regression.ipynb**
+
 Linear regression implementation and analysis.
 
 ## Installation
 
 No external setup required. Uses standard libraries:
+
 - NumPy
 - Matplotlib
 
 ## Usage
 
-Open any notebook with Jupyter or JupyterLab to run cells interactively." 
+Open any notebook with Jupyter or JupyterLab to run cells interactively."
