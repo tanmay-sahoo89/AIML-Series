@@ -6,7 +6,7 @@ A collection of AI/ML learning notebooks covering fundamental concepts in data v
 
 ### 📊 Notebooks
 
-#### 1. **data_detox.ipynb**
+#### 1. **linear_regression.ipynb****data_detox.ipynb**
 
 Comprehensive guide to data visualization with matplotlib and NumPy. Covers:
 
@@ -18,7 +18,7 @@ Comprehensive guide to data visualization with matplotlib and NumPy. Covers:
   - 4-feature visualization
   - 10-feature comprehensive analysis with shared y-axis
 
-#### 2. **linear_regression.ipynb**
+#### 2. 
 
 Linear regression implementation and analysis.
 
