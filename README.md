@@ -21,6 +21,7 @@ Comprehensive guide to data visualization with matplotlib and NumPy. Covers:
 - **Feature Analysis**: Scatter plots for analyzing relationships between features and target variables
   - 4-feature visualization
   - 10-feature comprehensive analysis with shared y-axis
+
 ## Installation
 
 No external setup required. Uses standard libraries:
