@@ -10,7 +10,19 @@ A collection of AI/ML learning notebooks covering fundamental concepts in data v
 
 Linear regression implementation and analysis.
 
-#### 2. **data_detox.ipynb**
+#### 2. **logistic_regression.ipynb**
+
+Logistic regression classifier implementation from scratch. Covers:
+
+- **Class Implementation**: Custom `MyLogisticRegression` class with gradient descent
+- **Sigmoid Activation**: Probability transformation for binary classification
+- **Gradient Descent**: Weight and bias optimization using derivatives
+- **Model Training**: Fitting on breast cancer dataset (sklearn)
+- **Predictions**: Binary classification with 0.5 probability threshold
+- **Accuracy Tracking**: Monitoring model performance across iterations
+- **Visualization**: Accuracy vs iterations scatter plot
+
+#### 3. **data_detox.ipynb**
 
 Comprehensive guide to data visualization with matplotlib and NumPy. Covers:
 
